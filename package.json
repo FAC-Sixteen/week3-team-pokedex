@@ -19,6 +19,7 @@
   "homepage": "https://github.com/FAC-Sixteen/week3-team-pokedex#readme",
   "devDependencies": {
     "tap-spec": "^5.0.0",
-    "tape": "^4.10.1"
+    "tape": "^4.10.1",
+    "xmlhttprequest": "^1.8.0"
   }
 }

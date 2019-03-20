@@ -1,5 +1,5 @@
 const getPokeDetails = function(json) {
-  return ["1", "2"];
+  return [json.name, json.sprites.front_default];
 };
 
 if (typeof module !== "undefined") {
