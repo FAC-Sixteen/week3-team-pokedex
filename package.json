@@ -1,0 +1,25 @@
+{
+  "name": "week3-team-pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api_function.js",
+  "scripts": {
+    "test": "tape *.test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAC-Sixteen/week3-team-pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FAC-Sixteen/week3-team-pokedex/issues"
+  },
+  "homepage": "https://github.com/FAC-Sixteen/week3-team-pokedex#readme",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
