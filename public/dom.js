@@ -13,8 +13,8 @@
 
 const pokeDomOnClick = function(starsign) {
   const node = document.createElement("p");
-  const elementName = document.querySelector(".heightText");
-  const elementType = document.querySelector(".weightText");
+  const elementName = document.querySelector(".pokeNameText");
+  const elementType = document.querySelector(".pokeTypeText");
   const elementImage = document.querySelector(".pokeImage");
   const type = pokeType(starsign);
   fetch("https://pokeapi.co/api/v2/type/" + type, function(response) {
