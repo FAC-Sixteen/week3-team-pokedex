@@ -372,6 +372,12 @@ body{
     margin-top: 1vh;
     margin-left: 2vh;
   }
+
+  .descriptionText {
+    font-size: 1rem;
+  }
+
+
   .height{
     display: inline-block;
     position: absolute;

@@ -3,8 +3,8 @@
 (function() {
   console.log("running on start");
   document
-    .querySelector("#pokeSubmit")
-    .addEventListener("click", function(event) {
+    .querySelector("form")
+    .addEventListener("submit", function(event) {
       event.preventDefault();
       const sign = document.querySelector("#zodiac_drop").value;
       pokeDomOnClick(sign);
