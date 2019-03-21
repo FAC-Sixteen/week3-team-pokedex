@@ -357,7 +357,8 @@ body{
   }
 
   .horoscopeText {
-    font-size: 1rem;
+    padding: 1.5vh;
+    font-size: 1.4vh;
   }
 
 
@@ -401,6 +402,11 @@ body{
     margin-top: 1vh;
     margin-left: 1vh;
     margin-bottom:-0vh;
+  }
+
+  .pokeNameText {
+    font-size: 2vh;
+    padding-top: 2vh;
   }
   .types{
     display: inline-block;
@@ -451,6 +457,13 @@ body{
     opacity: .5;
     position: absolute;
     margin-top: 5vh;
+  }
+
+  .statText{
+    padding-top: 2vh;
+    font-size: 2vh; 
+    line-height: 3vh;
+    max-width: 8vh;
   }
   .height:before{
     content:"";
