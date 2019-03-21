@@ -2,9 +2,9 @@
   "name": "week3-team-pokedex",
   "version": "1.0.0",
   "description": "",
-  "main": "api_function.js",
+  "main": "index.js",
   "scripts": {
-    "test": "tape *.test.js | tap-spec"
+    "test": "tape ./private/tests/*.test.js | tap-spec"
   },
   "repository": {
     "type": "git",
