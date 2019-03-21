@@ -14,41 +14,14 @@ addListener("form", "submit", function(e) {
     horoscopeText.textContent = join.trim();
 
     // battle stats from the nested meta object
-<<<<<<< HEAD
         let horoKeys = Object.keys(response.meta);
         let horoVals = Object.values(response.meta);
-        // queryForm.appendChild(linebreak);
-        console.log(horoKeys);
-        console.log(horoVals);
         for (var i=0;i<horoKeys.length;i++){
             let listElem = document.createElement("li");
             listElem.textContent += horoKeys[i]+': '+horoVals[i];
             stats.appendChild(listElem);
         }
     }); 
-||||||| merged common ancestors
-        let horoKeys = Object.keys(response.meta);
-        let horoVals = Object.values(response.meta);
-        // queryForm.appendChild(linebreak);
-        console.log(horoKeys);
-        console.log(horoVals);
-        for (var i=0;i<horoKeys.length;i++){
-            let listElem = document.createElement("ul");
-            listElem.textContent += horoKeys[i]+': '+horoVals[i];
-            stats.appendChild(listElem);
-        }
-    }); 
-=======
-    let horoKeys = Object.keys(response.meta);
-    let horoVals = Object.values(response.meta);
-    // queryForm.appendChild(linebreak);
-    for (var i = 0; i < horoKeys.length; i++) {
-      let listElem = document.createElement("ul");
-      listElem.textContent += horoKeys[i] + ": " + horoVals[i];
-      stats.appendChild(listElem);
-    }
-  });
->>>>>>> master
 
   //returns and populates zodiac type
 
