@@ -9,23 +9,36 @@
 imply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
 ---
+
 ### How to set up our project
 
-1. Create a new directory.
-2. git clone `ipsum'
+1. git clone `https://github.com/FAC-Sixteen/week3-team-pokedex.git`
+2. cd into the file
+3. `npm i` to install dependencies
+4. you can run tests with `npm test`
 
+One of our api's used http while github pages uses https, this means that the browser will automatically block the api. Disable this by clicking the litle i on the far left of the browser bar and disabling the protection.
 
 ---
+
 ### What did we struggle with?
 
-* is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+![](https://i.imgur.com/C94GoCY.png)
 
 ---
+
 ### What did we learn?
 
- is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+- Query Selector is superior most of the time
+- callbacks within callbacks
+- testing with api's is not a thing
+-
 
 ---
+
 ### Stretch goals
 
-* is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsumns?
+- allowing the user to enter their birthday
+- allowing users to select the generation of the pokemon they are given
+- showing both type and subtype of the pokemon
+-
