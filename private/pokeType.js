@@ -1,47 +1,62 @@
 const pokeType = function(starsign) {
+  const which = whichType();
   switch (starsign) {
     case "aries":
-      return "fire";
+      if (which == 0) {
+        return "fire";
+      } else {
+        return "fighting";
+      }
       break;
     case "taurus":
-      return "rock";
-      break;
+      if (which == 0) {
+        return "rock";
+      } else {
+        return "steel";
+      }
       break;
     case "gemini":
-      return "dragon";
-      break;
+      if (which == 0) {
+        return "dragon";
+      } else {
+        return "fairy";
+      }
       break;
     case "cancer":
-      return "ghost";
-      break;
+      if (which == 0) {
+        return "Ghost";
+      } else {
+        return "Dark";
+      }
       break;
     case "leo":
       return "normal";
       break;
-      break;
     case "virgo":
-      return "grass";
-      break;
+      if (which == 0) {
+        return "grass";
+      } else {
+        return "bug";
+      }
       break;
     case "libra":
       return "psychic";
       break;
-      break;
     case "scorpio":
-      return "poison";
-      break;
+      if (which == 0) {
+        return "poison";
+      } else {
+        return "electric";
+      }
       break;
     case "sagittarius":
       return "flying";
       break;
-      break;
     case "capricorn":
       return "ground";
       break;
-      break;
     case "aquarius":
       return "ice";
-      break;
       break;
     case "pisces":
       return "water";
@@ -50,4 +65,8 @@ const pokeType = function(starsign) {
       console.log("the switch case isn't working properly");
       return "error";
   }
+};
+
+const whichType = function() {
+  return Math.floor(Math.random() * 2);
 };
