@@ -6,8 +6,8 @@
     .querySelector("#pokeSubmit")
     .addEventListener("click", function(event) {
       event.preventDefault();
-      console.log("this is running");
-      pokeDomOnClick("Gemini");
+      const sign = document.querySelector("#zodiac_drop").value;
+      pokeDomOnClick(sign);
     });
 })();
 
