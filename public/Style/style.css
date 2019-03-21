@@ -85,14 +85,25 @@ body{
     position: absolute;
     top: 3vh;
     left: 3vh;
-    background:  #05FBFB;
+    background:  rgb(108, 223, 223);
     box-shadow: -.5vh .5vh 0vh 0vh darkred;
   }
+
+  .blueLight p {
+    z-index: 5;
+    font-size: 8vh;
+    margin-top: -5vh;
+    padding-left: 1vh;
+    color: #3E55A1;
+    text-shadow: 0.1vh 0.5vh 0.5vh #213268 ; 
+  }
+
   .blueLightReflect{
+    z-index: 10;
     height: 6vh;
     width: 6vh;
-    margin-left: 3.5vh;
-    margin-top:.5vh;
+    margin-left: 3.2vh;
+    margin-top:-8vh;
     border-radius: 60vh;
     background: linear-gradient(white, transparent);
   }

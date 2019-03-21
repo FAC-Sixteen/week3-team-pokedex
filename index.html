@@ -23,7 +23,11 @@
     <div class="container">
       <div class="leftSide">
         <div class="leftCurve">
-          <div class="blueLight"><div class="blueLightReflect"></div></div>
+            <!-- <div>
+                <button onclick = "document.getElementById('player').play()">Play</button>
+                <button onclick = "document.getElementById('player').pause()">Pause</button>
+             </div> -->
+          <button class="blueLight" onclick = "togglePlay()"><p>&#9658</p><div class="blueLightReflect"></div></button>
           <div class="redLight"></div>
           <div class="yellowLight"></div>
           <div class="greenLight"></div>
@@ -73,7 +77,15 @@
         </div>
       </div>
     </div>
+    <!-- <audio controls>
+      <source src="Pokemon Gameboy Music.mp3" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio> -->
+
+    <audio id= "player" src = "Pokemon Gameboy Music.mp3"></audio>
+
     <script src="private/api_function.js"></script>
+    <script src="public/audio_controls.js"></script>
     <script src="private/pure.js"></script>
     <script src="public/zodiac_profile.js"></script>
     <script src="public/zodiac_list.js"></script>
