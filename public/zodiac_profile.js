@@ -1,10 +1,8 @@
-
-
 addListener('form', 'submit', function(e){
     e.preventDefault();
 
-    let selectedSign = document.getElementById('zodiac_drop');
-    let url = `http://sandipbgt.com/theastrologer/api/horoscope/${selectedSign.value}/today`;
+    let selectedSign = document.getElementById('zodiac_drop').value;
+    let url = `http://sandipbgt.com/theastrologer/api/horoscope/${selectedSign}/today`;
     let stats = document.querySelector(".statText");
     stats.textContent = '';
 
@@ -29,7 +27,13 @@ addListener('form', 'submit', function(e){
         }
     }); 
 
-  
+    //returns and populates zodiac type
+
+    zodiacType(selectedSign, function(type){
+        let  typeInput= document.querySelector(".zodiacType");
+        typeInput.textContent = type;
+    })
+    
 
 })
 
