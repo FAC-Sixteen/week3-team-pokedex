@@ -373,7 +373,7 @@ body{
     margin-left: 2vh;
   }
 
-  .descriptionText {
+  .horoscopeText {
     font-size: 1rem;
   }
 
@@ -471,6 +471,12 @@ body{
     position: absolute;
     margin-top: 5vh;
   }
+
+  .statText{
+    font-size: 2rem;
+  }
+
+
   .height:before{
     content:"";
     width:100%;
