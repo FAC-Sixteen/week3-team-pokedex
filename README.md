@@ -17,6 +17,8 @@ imply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
 3. `npm i` to install dependencies
 4. you can run tests with `npm test`
 
+One of our api's used http while github pages uses https, this means that the browser will automatically block the api. Disable this by clicking the litle i on the far left of the browser bar and disabling the protection.
+
 ---
 
 ### What did we struggle with?
