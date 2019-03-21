@@ -1,49 +1,49 @@
 const pokeType = function(starsign) {
   switch (starsign) {
-    case "Aries":
+    case "aries":
       return "fire";
       break;
-    case "Taurus":
+    case "taurus":
       return "rock";
       break;
       break;
-    case "Gemini":
+    case "gemini":
       return "dragon";
       break;
       break;
-    case "Cancer":
+    case "cancer":
       return "ghost";
       break;
       break;
-    case "Leo":
+    case "leo":
       return "normal";
       break;
       break;
-    case "Virgo":
+    case "virgo":
       return "grass";
       break;
       break;
-    case "Libra":
+    case "libra":
       return "psychic";
       break;
       break;
-    case "Scorpio":
+    case "scorpio":
       return "poison";
       break;
       break;
-    case "Sagittarius":
+    case "sagittarius":
       return "flying";
       break;
       break;
-    case "Capricorn":
+    case "capricorn":
       return "ground";
       break;
       break;
-    case "Aquarius":
+    case "aquarius":
       return "ice";
       break;
       break;
-    case "Pisces":
+    case "pisces":
       return "water";
       break;
     default:
