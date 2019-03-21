@@ -2,7 +2,7 @@
 
 # PROJECT WEEK 3
 
-![gif of roomba shark](https://media.giphy.com/media/qoxM1gi6i0V9e/giphy.gif)
+![gif of roomba shark](https://media.giphy.com/media/mokQK7oyiR8Sk/giphy.gif)
 
 ### The Project
 
