@@ -461,10 +461,15 @@ body{
 
   .statText{
     padding-top: 2vh;
-    font-size: 2vh; 
-    line-height: 3vh;
     max-width: 8vh;
   }
+
+  .statText li {
+    font-size: 2.5vh; 
+    list-style: none;
+    width: 45vh;
+  }
+
   .height:before{
     content:"";
     width:100%;
