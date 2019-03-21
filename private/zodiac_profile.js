@@ -19,10 +19,13 @@ addListener('form', 'submit', function(e){
     // battle stats from the nested meta object
         let horoKeys = Object.keys(response.meta);
         let horoVals = Object.values(response.meta);
+        // queryForm.appendChild(linebreak);
         console.log(horoKeys);
         console.log(horoVals);
         for (var i=0;i<horoKeys.length;i++){
-            stats.textContent += horoKeys[i]+':'+horoVals[i]+' ';
+            let listElem = document.createElement("ul");
+            listElem.textContent += horoKeys[i]+': '+horoVals[i];
+            stats.appendChild(listElem);
         }
     }); 
 
