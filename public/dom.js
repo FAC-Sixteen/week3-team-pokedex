@@ -21,10 +21,14 @@ const pokeDomOnClick = function(starsign) {
     const url = getPokeUrlFromType(response);
     fetch(url, function(response) {
       const array = getPokeDetails(response);
-      elementName.textContent = array[0];
-      elementType.textContent = type;
-      elementImage.src = array[1];
-      elementImage.alt = "Image of " + array[0];
+      if (array[1] === null) {
+        pokeDomOnClick(starsign);
+      } else {
+        elementName.textContent = array[0];
+        elementType.textContent = type;
+        elementImage.src = array[1];
+        elementImage.alt = "Image of " + array[0];
+      }
     });
   });
 };
