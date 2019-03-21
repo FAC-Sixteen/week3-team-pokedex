@@ -89,21 +89,23 @@ body{
     box-shadow: -.5vh .5vh 0vh 0vh darkred;
   }
 
-  .blueLight p {
-    z-index: 5;
-    font-size: 8vh;
-    margin-top: -5vh;
-    padding-left: 1vh;
-    color: #3E55A1;
-    text-shadow: 0.1vh 0.5vh 0.5vh #213268 ; 
+  .controlsContainer {
+    z-index: 10;
+    position: fixed;
+    bottom: 1vw;
+    left: 1vw;
+  }
+
+  .controlsSymbol {
+    height: 9vh;
+    width: 9vh;
   }
 
   .blueLightReflect{
-    z-index: 10;
     height: 6vh;
     width: 6vh;
-    margin-left: 3.2vh;
-    margin-top:-8vh;
+    margin-left: 3.5vh;
+    margin-top:.5vh;
     border-radius: 60vh;
     background: linear-gradient(white, transparent);
   }
