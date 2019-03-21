@@ -303,6 +303,10 @@ body{
     margin: 1vh auto;
     width: 32vh;
   }
+
+  .zodiacType, .pokeTypeText {
+    padding: 1vh;
+  }
   
   .rightSide{
     display: inline-block;
@@ -357,7 +361,7 @@ body{
   }
 
   .horoscopeText {
-    padding: 1.5vh;
+    padding: 2vh;
     font-size: 1.4vh;
   }
 
