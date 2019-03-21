@@ -24,9 +24,9 @@ const pokeType = function(starsign) {
       break;
     case "cancer":
       if (which == 0) {
-        return "Ghost";
+        return "ghost";
       } else {
-        return "Dark";
+        return "dark";
       }
       break;
     case "leo":
