@@ -1,7 +1,23 @@
+@font-face{
+font-family: 'poke solid';
+src: url(../fonts/Pokemon\ Solid.ttf);
+}
+
+@font-face{
+  font-family: 'poke hollow';
+  src: url(../fonts/Pokemon\ Hollow.ttf);
+  }
+
+  @font-face{
+    font-family: 'pokedex';
+    src: url(../fonts/Pokemon\ GB.ttf);
+    }
+
 body{
     margin:0;
     padding:0;
     text-align: center;
+    font-family: 'pokedex'
    
   }
   .container{
@@ -144,33 +160,15 @@ body{
     box-shadow: -.5vh .5vh 0vh .5vh rgba(0, 0, 0, 0.2) inset,
       0vh 0vh 3vh 1vh rgba(250,250,250, 1);
     width:45vh;
-    font-family: 'VT323', monospace;
     font-size: 4vh;
     color: gray;
     z-index:1;
-  }
-  .errorScreen{
-    display: inline-block;
-    position: absolute;
-    bottom:10vh;
-    right:2vh;
-    border: .3vh solid GRAY;
-    box-shadow: -.5vh .5vh 0vh .5vh rgba(0, 0, 0, 0.2) inset;
-    background: white;
-    height: 30vh;
-    border-radius: 2vh;
-    width:45vh;
-    font-family: 'VT323', monospace;
-    font-size: 4vh;
-    color: gray;
-    text-align: center;
-    z-index:0;
   }
   .screen p{
     margin-top: .2vh;
     margin-left: 2vh;
   }
-  .sad{font-size: 20vh; margin-top:-10vh;}
+ 
  
   .name{
     content:"";
@@ -262,7 +260,6 @@ body{
     color:gray;
   }
   .blueButton p{
-    font-family: 'Rubik', sans-serif;
     font-size: 3vh;
     text-transform: uppercase;
   }
@@ -276,24 +273,9 @@ body{
   }
   
   
-  .select{
-    height: 2.5vh;
-    width: 10vh;
-    border-radius: 5vh;
-    position: absolute;
-    border: .2vh solid darkblue;
-    box-shadow: -.2vh .2vh darkblue;
-    bottom: 20vh;
-    left: 38vh;
-    background: #0D6290;
-    z-index: 3;
-    color: darkblue;
-    font-family: 'Rubik', sans-serif;
-    font-size: 2vh;
-    text-transform: uppercase;
-    
-  }
+  
   .input{
+    padding-top: 2vh;
     height: 15vh;
     width: 40vh;
     border-radius: 1vh;
@@ -303,23 +285,10 @@ body{
     background: lightyellow;
     box-shadow: -0vh .5vh 0vh .7vh rgba(0, 0, 0, 0.3) inset;
     z-index: 3;
-    font-size: 3.5vh;
-    font-family: 'VT323', monospace;
+    font-size: 3vh;
     color: gray;
   }
-  .trueInput{
-    width: 33vh;
-    position: absolute;
-    border-radius: 2vh;
-    padding-left: 2vh;
-    left: 2vh;
-    bottom: 1vh;
-    height: 4vh;
-    outline: none;
-    font-size: 3.5vh;
-    font-family: 'VT323', monospace;
-    color: gray;
-  }
+  
   .rightSide{
     display: inline-block;
     position: relative;
@@ -357,13 +326,12 @@ body{
     position: absolute;
     top:4vh;
     right:7vh;
-    box-shadow: -.5vh .5vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
+    box-shadow: -.5vh .1vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
     background: white;
     height: 15vh;
     text-align: left;
     width:45vh;
-    font-family: 'VT323', monospace;
-    font-size: 4vh;
+    font-size: 2.5vh;
     color: gray;
     border-radius: .5vh;
     z-index:1;  
@@ -377,13 +345,12 @@ body{
     position: absolute;
     top:21vh;
     left:8vh;
-    box-shadow: -.5vh .5vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
+    box-shadow: -.5vh .1vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
     background: white;
     height: 10vh;
     text-align: left;
     width:22vh;
-    font-family: 'VT323', monospace;
-    font-size: 4vh;
+    font-size: 2vh;
     color: gray;
     z-index:1;  
     border-radius: .5vh;
@@ -398,14 +365,13 @@ body{
     position: absolute;
     top: 21vh;
     left:31vh;
-    box-shadow: -.5vh .5vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
+    box-shadow: -.5vh .1vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
     background: white;
     border-radius: .5vh;
     height: 10vh;
     text-align: left;
     width:22vh;
-    font-family: 'VT323', monospace;
-    font-size: 4vh;
+    font-size: 2vh;
     color: gray;
     z-index:1;  
   }
@@ -419,13 +385,12 @@ body{
     position: absolute;
     top:33vh;
     left:8vh;
-    box-shadow: -.5vh .5vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
+    box-shadow: -.5vh .1vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
     background: white;
     height: 10vh;
     text-align: left;
     width:45vh;
-    font-family: 'VT323', monospace;
-    font-size: 4vh;
+    font-size: 3vh;
     color: gray;
     z-index:1;  
     border-radius: .5vh;
@@ -436,17 +401,17 @@ body{
     margin-bottom:-0vh;
   }
   .stats{
+    
     display: inline-block;
     position: absolute;
     bottom:3vh;
     right:7vh;
-    box-shadow: -.5vh .5vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
+    box-shadow: -.5vh .1vh 0vh .5vh rgba(0, 0, 0, 0.3) inset;
     background: white;
     height: 25vh;
     text-align: left;
     width:45vh;
-    font-family: 'VT323', monospace;
-    font-size: 4vh;
+    font-size: 2.5vh;
     color: gray;
     border-radius: .5vh;
     z-index:1;  
