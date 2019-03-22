@@ -1,8 +1,7 @@
 // fetch from API on load event, creates sign object.
 
 fetch('http://sandipbgt.com/theastrologer/api/sunsigns/', function(response){
-  
-    response.map((element, i) => {
+      response.map((element, i) => {
         signs[i] = element;
     });
 

@@ -42,10 +42,10 @@ body{
     z-index: 9;
     margin-bottom: 0;
     font-weight: 600;
-
   }
 
   .container{
+    position: relative;
     display:inline-block;
   }
   .leftSide{
