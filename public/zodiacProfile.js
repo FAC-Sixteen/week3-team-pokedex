@@ -14,14 +14,14 @@ addListener("form", "submit", function(e) {
     horoscopeText.textContent = join.trim();
 
     // battle stats from the nested meta object
-        let horoKeys = Object.keys(response.meta);
-        let horoVals = Object.values(response.meta);
-        for (var i=0;i<horoKeys.length;i++){
-            let listElem = document.createElement("li");
-            listElem.textContent += horoKeys[i]+': '+horoVals[i];
-            stats.appendChild(listElem);
-        }
-    }); 
+    let horoKeys = Object.keys(response.meta);
+    let horoVals = Object.values(response.meta);
+    for (let i = 0; i < horoKeys.length; i++) {
+      let listElem = document.createElement("li");
+      listElem.textContent += horoKeys[i] + ": " + horoVals[i];
+      stats.appendChild(listElem);
+    }
+  });
 
   //returns and populates zodiac type
 

@@ -23,12 +23,13 @@ body{
 
   .poke_solid{
     position: relative;
+    padding-top: 1vh;
     font-family: 'poke solid';
     font-size: 12vh;
     letter-spacing: 0.1em;
     color: #FFFF05;
     z-index: 1;
-    margin-bottom: 0;
+    margin-bottom: -0.8vh;
   }
 
   .poke_hollow {
@@ -40,7 +41,7 @@ body{
     color: #3E55A1;
     text-shadow: 0.1vh 0.5vh 0.5vh  #213268;
     z-index: 9;
-    margin-bottom: 0;
+    margin-bottom: -8vh;
     font-weight: 600;
   }
 
@@ -199,7 +200,7 @@ body{
       0vh 0vh 3vh 1vh rgba(250,250,250, 1);
     width:45vh;
     font-size: 4vh;
-    color: gray;
+    color:  #666666;
     z-index:1;
   }
   .screen p{
@@ -297,8 +298,8 @@ body{
     background: lightyellow;
     box-shadow: -0vh .5vh 0vh .7vh rgba(0, 0, 0, 0.3) inset;
     z-index: 3;
-    font-size: 2vh;
-    color: gray;
+    font-size: 3vh;
+    color:  #666666;
   }
 
   #pokeSubmit {
@@ -396,7 +397,7 @@ body{
     text-align: left;
     width:45vh;
     font-size: 2.5vh;
-    color: gray;
+    color:  #666666;
     border-radius: .5vh;
     z-index:1;  
   }
@@ -422,7 +423,7 @@ body{
     text-align: left;
     width:22vh;
     font-size: 2vh;
-    color: gray;
+    color:  #666666;
     z-index:1;  
     border-radius: .5vh;
     word-wrap: break-word;
@@ -444,7 +445,7 @@ body{
     text-align: left;
     width:22vh;
     font-size: 2vh;
-    color: gray;
+    color:  #666666;
     z-index:1;  
   }
   .weight p{
@@ -468,7 +469,7 @@ body{
     text-align: left;
     width:45vh;
     font-size: 3vh;
-    color: gray;
+    color:  #666666;
     z-index:1;  
     border-radius: .5vh;
   }
@@ -489,7 +490,7 @@ body{
     text-align: left;
     width:45vh;
     font-size: 2.5vh;
-    color: gray;
+    color:  #666666;
     border-radius: .5vh;
     z-index:1;  
   }
