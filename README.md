@@ -10,8 +10,10 @@ Our task was to create a single page website that accessed two different api's, 
 
 The Api's we decided to use were the [pokeApi](https://pokeapi.co/) and a [horoscope api](http://sandipbgt.com/theastrologer-api/index.html).
 
-We designed the website with the aide of 
-[Figma](https://www.figma.com/file/IwGkeKIsYCeCMWVywU5epoIY/Pokemon-API?node-id=0%3A1) taking inspiration from the pokemon pokedex. 
+![rough sketch of project structure](./Planning.jpg)
+
+We collected inspiration for the website design with the aide of 
+[Figma](https://www.figma.com/file/IwGkeKIsYCeCMWVywU5epoIY/Pokemon-API?node-id=0%3A1).Our design centred around the pokemon pokedex. 
 
 We had to look at a few api's to do the horoscrope, and we ended up having to abandon the [one](http://zodiacal.herokuapp.com/) we were originally going to use becuase it wasn't working.
 
