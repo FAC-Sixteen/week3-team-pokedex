@@ -23,12 +23,13 @@ body{
 
   .poke_solid{
     position: relative;
+    padding-top: 1vh;
     font-family: 'poke solid';
     font-size: 12vh;
     letter-spacing: 0.1em;
     color: #FFFF05;
     z-index: 1;
-    margin-bottom: 0;
+    margin-bottom: -0.8vh;
   }
 
   .poke_hollow {
@@ -40,7 +41,7 @@ body{
     color: #3E55A1;
     text-shadow: 0.1vh 0.5vh 0.5vh  #213268;
     z-index: 9;
-    margin-bottom: 0;
+    margin-bottom: -8vh;
     font-weight: 600;
   }
 
