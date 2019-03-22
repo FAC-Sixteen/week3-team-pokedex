@@ -17,6 +17,8 @@ const pokeDomOnClick = function(starsign) {
   const elementType = document.querySelector(".pokeTypeText");
   const elementImage = document.querySelector(".pokeImage");
   const type = pokeType(starsign);
+  elementImage.style.animation = '';
+
   fetch("https://pokeapi.co/api/v2/type/" + type, function(response) {
     const url = getPokeUrlFromType(response);
     fetch(url, function(response) {
@@ -27,7 +29,9 @@ const pokeDomOnClick = function(starsign) {
         elementName.textContent = array[0];
         elementType.textContent = type;
         elementImage.src = array[1];
+        elementImage.style.animation =  "shake 0.82s cubic-bezier(.36,.07,.19,.97) both";
         elementImage.alt = "Image of " + array[0];
+  
       }
     });
   });
