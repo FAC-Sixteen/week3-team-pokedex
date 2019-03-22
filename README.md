@@ -36,7 +36,7 @@ We had to look at a few api's to do the horoscrope, and we ended up having to ab
 3. `npm i` to install dependencies
 4. you can run tests with `npm test`
 
-One of our api's used http while github pages uses https, this means that the browser will automatically block the api. Disable this by clicking the litle i on the far left of the browser bar and disabling the protection.
+One of our api's used http while github pages uses https, this means that the browser will automatically block the api. We have prevented this from being an issue through the use of CORS
 
 ---
 
