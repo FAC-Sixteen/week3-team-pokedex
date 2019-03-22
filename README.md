@@ -4,9 +4,19 @@
 
 ![gif of roomba shark](https://media.giphy.com/media/mokQK7oyiR8Sk/giphy.gif)
 
-### The Project
+### The Team
 
-Our task was to create a single page website that accessed two different api's, and used them to render information on the page utilising the DOM.
+Henry @hrmstockdale
+
+Rohan @RohanSSS
+
+Banna @bantek89
+
+Kate @dubhcait
+
+### The Project 
+
+Our task was to create a single page website that accessed two different api's, and used them to render information on the page utilising the DOM. It's live [here](https://fac-sixteen.github.io/week3-team-pokedex/)
 
 The Api's we decided to use were the [pokeApi](https://pokeapi.co/) and a [horoscope api](http://sandipbgt.com/theastrologer-api/index.html).
 
@@ -63,5 +73,10 @@ One of our api's used http while github pages uses https, this means that the br
 - assigning multiple types to certain star signs so that all pokemon types can be gotten :heavy_check_mark: 
 
 ---
+
+### Preview
+
+![preview](./Preview1.png)
+
 
 ![all done](https://i.imgur.com/i1IwkRL.gif)
