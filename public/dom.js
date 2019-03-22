@@ -1,4 +1,4 @@
-// import { fetch } from "../api_function";
+// import { fetch } from "../apiFunction";
 // import { getPokeUrlFromType } from "../private/getPokeUrlFromType";
 (function() {
   console.log("running on start");
