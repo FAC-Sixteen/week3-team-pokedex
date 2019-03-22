@@ -78,5 +78,6 @@ One of our api's used http while github pages uses https, this means that the br
 
 ![preview](./Preview1.png)
 
+---
 
-![all done](https://i.imgur.com/i1IwkRL.gif)
+![all done](https://media.giphy.com/media/NjevnbNiUmeLm/giphy.gif)
