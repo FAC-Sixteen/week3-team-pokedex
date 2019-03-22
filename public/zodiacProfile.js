@@ -2,7 +2,7 @@ addListener("form", "submit", function(e) {
   e.preventDefault();
 
   let selectedSign = document.getElementById("zodiac_drop").value;
-  let url = `http://sandipbgt.com/theastrologer/api/horoscope/${selectedSign}/today`;
+  let url = `https://cors-anywhere.herokuapp.com/http://sandipbgt.com/theastrologer/api/horoscope/${selectedSign}/today`;
   let stats = document.querySelector(".statText");
   stats.textContent = "";
 
