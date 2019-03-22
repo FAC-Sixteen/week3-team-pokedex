@@ -20,7 +20,7 @@ Our task was to create a single page website that accessed two different api's, 
 
 The Api's we decided to use were the [pokeApi](https://pokeapi.co/) and a [horoscope api](http://sandipbgt.com/theastrologer-api/index.html).
 
-![rough sketch of project structure](./Planning.jpg)
+![rough sketch of project structure](./public/img/Planning.jpg)
 
 We collected inspiration for the website design with the aide of 
 [Figma](https://www.figma.com/file/IwGkeKIsYCeCMWVywU5epoIY/Pokemon-API?node-id=0%3A1).Our design centred around the pokemon pokedex. 
@@ -74,9 +74,9 @@ One of our api's used http while github pages uses https, this means that the br
 
 ---
 
-### Preview
+### public/img/Preview
 
-![preview](./Preview1.png)
+![public/img/Preview](./public/img/Preview1.png)
 
 ---
 
