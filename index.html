@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" type="image/png" sizes="16x16" href="public/img/favicon-16x16.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="public/img/favicon-16x16.png"
+    />
     <link
       rel="stylesheet"
       type="text/css"
@@ -20,17 +25,24 @@
     <title>Pokedex</title>
   </head>
   <body>
-    <h1 class="poke_solid">Pokesign</h1><h1 class="poke_hollow">Pokesign</h1>
+    <h1 class="poke_solid">Pokesign</h1>
+    <h1 class="poke_hollow">Pokesign</h1>
     <div class="controlsContainer">
-      <img class="controlsSymbol" src="iconfinder_icon-play_211876.png" onclick = "togglePlay()">
+      <img
+        class="controlsSymbol"
+        src="./public/img/iconfinder_icon-play_211876.png"
+        onclick="togglePlay()"
+      />
     </div>
     <div class="container">
       <div class="leftSide">
         <div class="leftCurve">
-            <!-- <div>
-                <button onclick = "document.getElementById('player').play()">Play</button>
-                <button onclick = "document.getElementById('player').pause()">Pause</button>
-             </div> -->
+          <!--
+            <div>
+               <button onclick = "document.getElementById('player').play()">Play</button>
+               <button onclick = "document.getElementById('player').pause()">Pause</button>
+            </div>
+          -->
           <div class="blueLight"><div class="blueLightReflect"></div></div>
           <div class="redLight"></div>
           <div class="yellowLight"></div>
@@ -53,7 +65,7 @@
             <select id="zodiac_drop" name="Zodiac">
               <option selected disabled hidden>choose here</option>
             </select>
-            <input id="pokeSubmit" type="submit" value=""/>
+            <input id="pokeSubmit" type="submit" value="" />
           </form>
         </div>
         <div class="cross"></div>
@@ -76,24 +88,27 @@
           <p>Pokemon type</p>
           <p class="pokeTypeText"></p>
         </div>
-        <div class="stats"><p>Battle Stats</p>
-        <p class="statText"></p>
+        <div class="stats">
+          <p>Battle Stats</p>
+          <p class="statText"></p>
         </div>
       </div>
     </div>
-    <!-- <audio controls>
-      <source src="Pokemon Gameboy Music.mp3" type="audio/ogg">
-      Your browser does not support the audio element.
-    </audio> -->
-    
-    <audio id= "player" src = "Pokemon Gameboy Music.mp3"></audio>
+    <!--
+      <audio controls>
+        <source src="./public/audio/Pokemon Gameboy Music.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    -->
 
-    <script src="private/api_function.js"></script>
-    <script src="public/audio_controls.js"></script>
-    <script src="private/pure.js"></script>
-    <script src="public/zodiac_profile.js"></script>
-    <script src="public/zodiac_list.js"></script>
-    <script src="private/zodiac_type.js"></script>
+    <audio id="player" src="./public/audio/Pokemon Gameboy Music.mp3"></audio>
+
+    <script src="private/apiFunction.js"></script>
+    <script src="public/audioControls.js"></script>
+    <script src="private/addListener.js"></script>
+    <script src="public/zodiacProfile.js"></script>
+    <script src="public/zodiacList.js"></script>
+    <script src="private/zodiacType.js"></script>
     <script src="./private/getPokeUrlFromType.js"></script>
     <script src="./private/getPokeDetails.js"></script>
     <script src="./private/pokeType.js"></script>
