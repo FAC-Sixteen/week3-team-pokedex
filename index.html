@@ -28,11 +28,7 @@
     <h1 class="poke_solid">Pokesign</h1>
     <h1 class="poke_hollow">Pokesign</h1>
     <div class="controlsContainer">
-      <img
-        class="controlsSymbol"
-        src="./public/img/iconfinder_icon-play_211876.png"
-        onclick="togglePlay()"
-      />
+      <img class="controlsSymbol" alt="audio controls play/pause" src="./public/img/iconfinder_icon-play_211876.png" onclick = "togglePlay()">
     </div>
     <div class="container">
       <div class="leftSide">
@@ -62,7 +58,7 @@
         <div class="input">
           <p>Select your star sign:</p>
           <form>
-            <select id="zodiac_drop" name="Zodiac">
+            <select id="zodiac_drop" name="Zodiac" aria-label="listbox">
               <option selected disabled hidden>choose here</option>
             </select>
             <input id="pokeSubmit" type="submit" value="" />

@@ -5,12 +5,13 @@ fetch('http://sandipbgt.com/theastrologer/api/sunsigns/', function(response){
         signs[i] = element;
     });
 
-// populate the html with signs object
+// populate the html with signs object + aria labels for respective option
     const form = document.querySelector("select");
 
     for (let i = 0; i < Object.keys(signs).length; i++){
         let listItem = document.createElement('option');
         listItem.textContent = signs[i];
+        listItem.setAttribute("aria-label","list option: "+listItem.textContent);
         form.appendChild(listItem);
     }
 });
